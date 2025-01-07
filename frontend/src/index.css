@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css */
+
+/* Apply dark background to the whole page */
+body {
+    background-color: #1a202c; /* Dark background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif; /* Set a font */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  h1 {
+    color: #63b3ed; /* Blue text */
+    font-size: 2.25rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  /* Style inputs, buttons, and other UI elements */
+  input,
+  button {
+    border-radius: 0.375rem; /* Rounded corners */
+    border: 1px solid #4a5568; /* Border color */
+    padding: 0.75rem 1.25rem;
+    background-color: #2d3748; /* Dark input background */
+    color: #fff; /* White text */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #3182ce; /* Hover color */
+  }
+  
+  /* Add a smooth transition for input and button interactions */
+  input,
+  button {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Add space between items */
+  ul {
+    padding-left: 1.25rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style for the chart container */
+  .chart-container {
+    background-color: #2d3748;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Add padding around content */
+  .container {
+    padding: 1.25rem;
+  }
+  
+  /* Add styles for loading and error messages */
+  .text-red-500 {
+    color: #e53e3e;
+  }
+  
+  .text-blue-400 {
+    color: #63b3ed;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .space-y-2 {
+    margin-top: 0.5rem;
+  }
+  
+  /* Darker background for hover and active states */
+  .bg-gray-900 {
+    background-color: #1a202c; /* Dark background */
+  }
+  
